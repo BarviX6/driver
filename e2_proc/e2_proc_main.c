@@ -124,7 +124,6 @@
  *  |           |
  *  |           --------- led_pattern_speed
  *  |           |
- *  |           |
  *  |           --------- version
  *  |           |
  *  |           --------- wakeup_time <- dbox frontpanel wakeuptime
@@ -1139,6 +1138,7 @@ struct ProcStructure_s e2Proc[] =
 	{cProcDir,   "stb/power",                                                        NULL, NULL, NULL, NULL, ""},
 	{cProcEntry, "stb/power/standbyled",                                             NULL, NULL, NULL, NULL, ""},
 #endif
+	{cProcEntry, "stb/power/vfd",                                                    NULL, NULL, NULL, NULL, ""},
 
    	{cProcDir,   "stb/tsmux",                                                        NULL, NULL, NULL, NULL, ""},
 	{cProcEntry, "stb/tsmux/input0",                                                 NULL, NULL, NULL, NULL, ""},
